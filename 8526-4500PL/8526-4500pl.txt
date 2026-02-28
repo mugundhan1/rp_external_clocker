@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"PCB_MOUNTING_STYLE";"Through Hole";"";
+"NUMBER_OF_CONTACT_ROWS";"2";"";
+"SUPPLIER";"3M";"";
+"TraceParts.PartNumber";"10-04122025-056227";"";
+"NUMBER_OF_CONTACTS";"26";"";
+"CONNECTOR_STYLE";"Receptacle";"";
+"REFERENCE";"8526-4500PL";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"3M™ Polarized Boardmount Socket, 8500 Series, 8526-4500PL";"";
+"TraceParts.InstanceId";"10-04122025-0562273NE7GTSJXLDLDEY6DZNXVM693";"";
+"TraceParts.PartTitle";"3M™ Polarized Boardmount Socket, 8500 Series";"";
+"PITCH_IMPERIAL";"0.1 in";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartVersion";"1.0.1";"";
+"PITCH_METRIC";"2.54 mm";"";
