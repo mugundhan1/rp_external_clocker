@@ -1,0 +1,128 @@
+
+**** 12/07/21 11:32:12 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Modeling\TLV3801_ti\tlv3801-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tlv3801.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20n 0 SKIPBP 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TLV3801
+.EXTERNAL INPUT GND
+.EXTERNAL INPUT OUT+
+.EXTERNAL INPUT IN-
+.EXTERNAL INPUT IN+
+.EXTERNAL INPUT VEE
+.EXTERNAL INPUT OUT-
+.EXTERNAL INPUT VCC
+X_U1         IN+ IN- VCC VCC VEE GND OUT+ OUT- TLV3801
+V_VINN         IN- N857014 0
+R_R4         0 N856948  1m TC=0,0 
+V_VINN4         VEE 0 -2.5
+V_VINN5         GND 0 0
+V_VINN2         VCC N856948 2.5
+R_R6         0 N857014  1m TC=0,0 
+V_V1         IN+ 0  
++SIN 0 100m 200MEG 0 0 0
+R_R3         OUT- OUT+  100 TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+**** 12/07/21 11:32:12 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Modeling\TLV3801_ti\tlv3801-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U5.X_S17._S17 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    0            
+        VOFF    1            
+
+
+               X_U1.X_U5.X_S4._S4 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON   -1.25         
+        VOFF   -2.5          
+
+
+               X_U1.X_U5.X_S16._S16 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    0            
+        VOFF    1            
+
+
+               X_U1.X_U5.X_S6._S6 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    2.5          
+        VOFF    1.25         
+
+
+               X_U1.X_U5.X_S3._S3 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    2.5          
+        VOFF    1.25         
+
+
+               X_U1.X_U5.X_S5._S5 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON   -1.25         
+        VOFF   -2.5          
+
+
+
+          JOB CONCLUDED
+
+**** 12/07/21 11:32:12 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Modeling\TLV3801_ti\tlv3801-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =      155.55
+  Total job time (using Solver 1)   =         .13
+

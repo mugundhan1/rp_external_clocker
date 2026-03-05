@@ -1,0 +1,229 @@
+
+**** 12/07/21 11:26:44 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Modeling\TLV3801_ti\tlv3801-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tlv3801.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 30u 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TLV3801
+.EXTERNAL INPUT GND
+.EXTERNAL INPUT OUT+
+.EXTERNAL INPUT IN-
+.EXTERNAL INPUT IN+
+.EXTERNAL INPUT VEE
+.EXTERNAL INPUT OUT-
+.EXTERNAL INPUT VCC
+X_U1         IN+ IN- VCC VCC VEE GND OUT+ OUT- TLV3801
+V_VINN         IN- N857014 0
+R_R4         0 N856948  1m TC=0,0 
+V_VINN4         VEE 0 -2.5
+V_VINN5         GND 0 0
+V_VINN2         VCC N856948 2.5
+R_R6         0 N857014  1m TC=0,0 
+V_V1         IN+ 0  
++SIN 0 100m 100k 0 0 0
+R_R3         OUT- OUT+  100 TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+**** 12/07/21 11:26:44 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Modeling\TLV3801_ti\tlv3801-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U5.X_S17._S17 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    0            
+        VOFF    1            
+
+
+               X_U1.X_U5.X_S4._S4 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON   -1.25         
+        VOFF   -2.5          
+
+
+               X_U1.X_U5.X_S16._S16 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    0            
+        VOFF    1            
+
+
+               X_U1.X_U5.X_S6._S6 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    2.5          
+        VOFF    1.25         
+
+
+               X_U1.X_U5.X_S3._S3 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    2.5          
+        VOFF    1.25         
+
+
+               X_U1.X_U5.X_S5._S5 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON   -1.25         
+        VOFF   -2.5          
+
+
+Starting pseudo-transient algorithm.
+
+INFO(ORPSIM-16594): To improve Pseudotransient Convergence and Performance, set following options to relax stabilization criteria for capacitor currents and inductor voltages: PTRANABSTOL=1e-5, PTRANVNTOL=1e-4
+
+ERROR -- Convergence problem in transient bias point calculation
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  GND)    0.0000  (  IN+)    0.0000  (  IN-)-1.000E-09  (  VCC)    2.5000      
+
+(  VEE)   -2.5000  ( OUT+)    1.4246  ( OUT-)    1.0751  (N856948)-40.00E-06    
+
+(N857014)-1.000E-09                   (X_U1.EN_IN)    0.0000                    
+
+(X_U1.EN_OUT)    0.0000               (X_U1.N21103)   -2.4752                   
+
+(X_U1.N21168)   -2.5000               (X_U1.IN+BUFF)    0.0000                  
+
+(X_U1.IN-BUFF)-1.000E-09              (X_U1.N785573) 500.0E-06                  
+
+(X_U1.N843683)    2.5000              (X_U1.N852568)     .0025                  
+
+(X_U1.N861796)    2.5000              (X_U1.N861914)    0.0000                  
+
+(X_U1.N863210)    2.5000              (X_U1.N865121)    0.0000                  
+
+(X_U1.N865288)    1.0000              (X_U1.X_U11.4)    0.0000                  
+
+(X_U1.X_U3.VH)     .0013              (X_U1.X_U5.1V)    1.0000                  
+
+(X_U1.X_U7.1V)    1.0000              (X_U1.X_U12.1V)    1.0000                 
+
+(X_U1.X_U3.OUT)   -2.5000             (X_U1.X_U3.VMID)-20.00E-06                
+
+(X_U1.GND_BUFFER)    0.0000           (X_U1.VEE_BUFFER)   -2.5000               
+
+(X_U1.X_U5.LOWER)    1.0677           (X_U1.X_U5.UPPER)    1.4320               
+
+(X_U1.VCCI_BUFFER)    2.5000          (X_U1.VCCO_BUFFER)    2.5000              
+
+(X_U1.X_U2.N20155)    2.6000          (X_U1.X_U2.N20415)   -1.0000              
+
+(X_U1.X_U2.N20531)   -2.5000          (X_U1.X_U2.N20539)   -1.0000              
+
+(X_U1.X_U2.N20826)   -2.5000          (X_U1.X_U2.N20833)   -2.5000              
+
+(X_U1.X_U2.N20840)   -2.5000          (X_U1.X_U3.INNNEW)     .0013              
+
+(X_U1.X_U4.N03175)   -1.2376          (X_U1.X_U5.X_U2.4)    0.0000              
+
+(X_U1.X_U2.N202710)    2.6000         (X_U1.X_U2.X_U24.6)   -2.5000             
+
+(X_U1.X_U5.N871584)    1.0713         (X_U1.X_U5.N871636)    1.4281             
+
+(X_U1.X_U5.N871682)    1.4284         (X_U1.X_U5.N871848)    1.0716             
+
+(X_U1.X_U5.N877529)   -1.4355         (X_U1.X_U5.N881317)   -1.0642             
+
+(X_U1.X_U5.N881854)    1.2500         (X_U1.X_U7.N784593)    5.2600             
+
+(X_U1.X_U7.N784683)    5.0000         (X_U1.X_U7.N784697)    0.0000             
+
+(X_U1.X_U7.N784807)    0.0000         (X_U1.X_U7.N784909)    2.6900             
+
+(X_U1.X_U7.N785081)    2.6900         (X_U1.X_U7.X_U17.4)    0.0000             
+
+(X_U1.X_U12.N786165)    5.2600        (X_U1.X_U12.N786255)    2.5000            
+
+(X_U1.X_U12.N786269)    0.0000        (X_U1.X_U12.N786373)    0.0000            
+
+(X_U1.X_U12.N786487)    2.3900        (X_U1.X_U12.X_U17.4)    0.0000            
+
+(X_U1.X_U5.N8798211)    1.4355        (X_U1.X_U5.N8812391)    1.0642            
+
+(X_U1.X_U2.X_U1.OUT2)   -2.5000       (X_U1.X_U5.X_U3.OUT1)    1.4355           
+
+(X_U1.X_U5.X_U7.OUT1)   -1.4355       (X_U1.X_U5.X_U8.OUT1)    1.0642           
+
+(X_U1.X_U5.X_U9.OUT1)   -1.0642       (X_U1.X_U7.X_U5.OUT2)    0.0000           
+
+(X_U1.X_U12.X_U5.OUT2)    0.0000      (X_U1.X_U2.X_U21.OUT2)   -2.5000          
+
+(X_U1.X_U2.X_U22.OUT2)   -2.5000      (X_U1.X_U2.X_U23.OUT2)   -2.5000          
+
+(X_U1.X_U5.OUTOFRANGE)    0.0000      (X_U1.X_U7.X_U13.OUT1)    5.0000          
+
+(X_U1.X_U7.X_U15.OUT2)    0.0000      (X_U1.X_U7.X_U16.OUT2)    0.0000          
+
+(X_U1.X_U12.X_U13.OUT1)    2.5000     (X_U1.X_U12.X_U16.OUT2)    0.0000     
+
+
+  These voltages failed to converge:
+
+    V(OUT-)                   =     3.415V  \     1.075V
+    V(OUT+)                   =  -915.24mV  \     1.425V
+    V(X_U1.N861796)           =    24.75mV  \     2.500V
+    V(X_U1.N861914)           =    -1.238V  \         0V
+    V(X_U1.X_U5.N871584)      =     3.463V  \     1.071V
+    V(X_U1.X_U5.N871848)      =     3.458V  \     1.072V
+    V(X_U1.X_U5.N871682)      =  -962.87mV  \     1.428V
+    V(X_U1.X_U5.N871636)      =  -958.54mV  \     1.428V
+    V(X_U1.X_U5.LOWER)        =     1.108V  \     1.068V
+    V(X_U1.X_U5.UPPER)        =     1.392V  \     1.432V
+
+  These supply currents failed to converge:
+
+    I(X_U1.E_E1)              =   -99.11pA  \   -10.01nA
+    I(X_U1.X_U4.e.T_TPD.eB1)  =    24.75mA  \         0A
+    I(X_U1.X_U5.X_U3.EOUT)    =   -43.93mA  \   -3.545mA
+    I(X_U1.X_U5.X_U8.EOUT)    =    43.93mA  \    3.545mA
+    I(X_U1.X_U6.X_U1.EVSS_NEW) =   -99.11pA  \   -10.01nA
+    IB(X_U1.X_U4.T_TPD)       =    24.75mA  \         0A
+    I(X_U1.X_U5.V_V12)        =   -85.78nA  \   -85.68nA
+
+**** Interrupt ****
