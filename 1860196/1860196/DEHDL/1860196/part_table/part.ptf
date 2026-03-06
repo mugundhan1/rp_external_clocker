@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1860196'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1860196" (!) = "", "1860196", "Other", "651-1860196", "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1860196?qs=WyAARYrbSnZ0H362tLIZlA%3D%3D", "PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm2, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: MKDSN 1,5, pitch: 5.08 mm,", "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-2-508-bk-h1l-1860196?type=pdf", "10.15 mm"
+END_PART
+
+END.

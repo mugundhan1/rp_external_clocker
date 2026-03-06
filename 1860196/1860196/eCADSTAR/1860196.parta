@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_626499"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-12-18-10:26:58)
+    (utime 2026-02-27-12:20:44)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "1860196")
+)
+
+
+(pinAssign "ECS_626499"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-12-18-10:26:58)
+    (utime 2026-02-27-12:20:44)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_626499")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1860196")
+)
+
+
+(part "1860196"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-12-18-10:26:58)
+    (utime 2026-02-27-12:20:44)
+    (packageRef "1860196")
+    (pinAssignRef "ECS_626499")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm2, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: MKDSN 1,5, pitch: 5.08 mm,")
+    (property "Mouser_Part_Number" "651-1860196")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1860196?qs=WyAARYrbSnZ0H362tLIZlA%3D%3D")
+    (property "Manufacturer_Name" "Phoenix Contact")
+    (property "Manufacturer_Part_Number" "1860196")
+    (property "Datasheet_Link" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-2-508-bk-h1l-1860196?type=pdf")
+    (property "compAreaTopHeight" 10.15)
+)
+
+

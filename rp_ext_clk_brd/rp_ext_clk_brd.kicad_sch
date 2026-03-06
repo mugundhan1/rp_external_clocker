@@ -5,6 +5,158 @@
 	(uuid "0f25c832-291b-4a58-95ad-d151503a68ae")
 	(paper "A4")
 	(lib_symbols
+		(symbol "1860196:1860196"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1860196"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1860196"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-2-508-bk-h1l-1860196?type=pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm2, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: MKDSN 1,5, pitch: 5.08 mm,"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "10.15"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "651-1860196"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1860196?qs=WyAARYrbSnZ0H362tLIZlA%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1860196"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1860196_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "8526-4500PL:8526-4500PL"
 			(pin_names
 				(offset 1.016)
@@ -1591,579 +1743,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Conn_Coax_Edge_MLX:732512120"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "732512120"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN-732513152_MOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/732512120?display=pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "732512120"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN-732513152_MOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "732512120_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -5.08)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "732512120_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -2.54) (xy 6.35 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -5.08)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2172,15 +1752,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0.254 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2205,7 +1785,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2214,7 +1794,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2223,7 +1803,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2232,60 +1812,37 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2294,30 +1851,33 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 0.635)
+					(radius 0.508)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "Conn_Coaxial_1_1"
 				(pin passive line
 					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(length 2.54)
+					(name "In"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2333,9 +1893,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4408,12 +3968,6 @@
 		(uuid "030aaa8a-ac8b-4239-8569-2b41e9fec022")
 	)
 	(junction
-		(at 110.49 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "065fb9fe-09f3-4100-b98c-63af9ee6c6ac")
-	)
-	(junction
 		(at 132.08 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4522,10 +4076,10 @@
 		(uuid "7f1628ed-dfe9-425a-94cc-7998719c9aa0")
 	)
 	(junction
-		(at 158.75 45.72)
+		(at 114.3 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d1f5165-dafa-46cd-a62d-44499742e4e0")
+		(uuid "96af0e36-68f2-4c4e-ba5c-d30b3f0fa424")
 	)
 	(junction
 		(at 167.64 124.46)
@@ -4811,6 +4365,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 179.07) (xy 114.3 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e761b92-41a1-4d45-b7c1-2639d9148893")
+	)
+	(wire
+		(pts
 			(xy 27.94 30.48) (xy 36.83 30.48)
 		)
 		(stroke
@@ -4881,16 +4445,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 118.11) (xy 107.95 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ba6379b-c9a8-42ba-99e0-1cfc54a53ce5")
-	)
-	(wire
-		(pts
 			(xy 257.81 24.13) (xy 267.97 24.13)
 		)
 		(stroke
@@ -4898,16 +4452,6 @@
 			(type default)
 		)
 		(uuid "3c777d5f-db3b-4f4a-9819-e64e0476ef3a")
-	)
-	(wire
-		(pts
-			(xy 110.49 107.95) (xy 124.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cf3255f-ad0b-4298-9918-b4716e0c6e6f")
 	)
 	(wire
 		(pts
@@ -4931,7 +4475,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 179.07) (xy 120.65 179.07)
+			(xy 110.49 179.07) (xy 114.3 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5151,23 +4695,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 105.41) (xy 124.46 105.41)
+			(xy 114.3 186.69) (xy 114.3 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9175445a-3a4f-404d-a178-59e2ccd40e28")
-	)
-	(wire
-		(pts
-			(xy 158.75 45.72) (xy 158.75 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94067cf6-c656-472d-8e80-97bab4654f7e")
+		(uuid "91618889-5b45-4f5d-b274-fc2b8d5ccc43")
 	)
 	(wire
 		(pts
@@ -5371,16 +4905,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 173.99) (xy 110.49 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0912315-dd4c-4a18-8f2d-5073d9ee9fbf")
-	)
-	(wire
-		(pts
 			(xy 254 45.72) (xy 265.43 45.72)
 		)
 		(stroke
@@ -5461,13 +4985,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 123.19) (xy 110.49 107.95)
+			(xy 114.3 179.07) (xy 120.65 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5c02f94-c2b6-424b-988d-5d70a9922ff6")
+		(uuid "d844cce5-22dd-4796-9253-3e1c289f7625")
 	)
 	(wire
 		(pts
@@ -5890,7 +5414,7 @@
 		(uuid "709e6a50-786a-4bd2-a700-2613ea04becc")
 	)
 	(label "XTAL_N"
-		(at 111.76 107.95 0)
+		(at 110.49 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5920,7 +5444,7 @@
 		(uuid "7bc501cd-978c-4109-ab95-40ef16b6132c")
 	)
 	(label "XTAL_P"
-		(at 110.49 105.41 0)
+		(at 107.95 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6069,6 +5593,16 @@
 		)
 		(uuid "df8d6e18-1ec9-41ea-88a0-270478370713")
 	)
+	(label "XTAL_P"
+		(at 124.46 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e01c9d07-73db-48d1-b7ce-85dedbc09c2b")
+	)
 	(label "I2C_SDA_RP"
 		(at 231.14 95.25 180)
 		(effects
@@ -6169,6 +5703,16 @@
 		)
 		(uuid "fbf00642-c7d0-4ca7-b8a1-fc921682fff8")
 	)
+	(label "XTAL_N"
+		(at 124.46 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbf9b8ff-bd82-4fbb-a855-566ff032baec")
+	)
 	(label "DIO3_N"
 		(at 231.14 139.7 180)
 		(effects
@@ -6178,6 +5722,76 @@
 			(justify right bottom)
 		)
 		(uuid "fd855b8f-41f3-41cb-8bf2-ac0e2902ba58")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 114.3 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0079daca-045a-4a9c-b5f8-257903607d21")
+		(property "Reference" "R6"
+			(at 116.84 182.8799 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "49.9"
+			(at 116.84 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?28916"
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD .250W 49.9ohms .5% 0603 25ppm Hi Power"
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20d8d131-820a-4bf8-95d5-44ee178b8f99")
+		)
+		(pin "1"
+			(uuid "f25e95ff-8a7b-437d-91f0-56666b665cd9")
+		)
+		(instances
+			(project "rp_ext_clk_brd"
+				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -6660,7 +6274,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 33.02 0)
+		(at 27.94 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6669,7 +6283,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a971724-da05-4d2c-adac-d6fa6b367691")
 		(property "Reference" "#PWR03"
-			(at 27.94 39.37 0)
+			(at 34.29 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,15 +6292,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 38.1 0)
+			(at 31.75 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 33.02 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +6310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 33.02 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +6319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 33.02 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,79 +6686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Conn_Coax_Edge_MLX:732512120")
-		(at 110.49 179.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15c2858d-bbbc-4f7d-846e-7c553e71d3d7")
-		(property "Reference" "J5"
-			(at 101.6 166.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "732512120"
-			(at 101.6 168.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Conn_Coax_MLX:CONN-732513152_MOL"
-			(at 110.49 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/732512120?display=pdf"
-			(at 110.49 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c85ea314-0723-4ef2-97d0-5c995edf54ea")
-		)
-		(pin "3"
-			(uuid "6632bf8a-6151-4a83-8c54-cb0703762048")
-		)
-		(pin "2"
-			(uuid "31469c49-c7e0-4e52-b865-a55174c7a631")
-		)
-		(instances
-			(project "rp_ext_clk_brd"
-				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 203.2 48.26 270)
 		(unit 1)
@@ -7341,74 +6883,6 @@
 			(project "rp_ext_clk_brd"
 				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 22.86 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c6c551b-6846-4222-8aed-52074dce24fc")
-		(property "Reference" "J2"
-			(at 22.86 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
-			(at 22.86 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://robu.in/product/2-pin-5-08mm-pitch-pluggable-screw-terminal-block-pack-of-3/"
-			(at 22.86 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-pin-5-08mm-pitch-pluggable-screw-terminal-block-pack-of-3"
-			(at 22.86 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "650e5655-b7ab-48e1-a7c8-ad85297efd78")
-		)
-		(pin "2"
-			(uuid "4ebf601f-7816-4ba9-8200-1879ae3fa654")
-		)
-		(instances
-			(project ""
-				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8292,7 +7766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 173.99 90)
+		(at 105.41 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8301,7 +7775,7 @@
 		(fields_autoplaced yes)
 		(uuid "38cde3fc-02d4-4563-b0f1-2258ecf1c3b2")
 		(property "Reference" "#PWR049"
-			(at 116.84 173.99 0)
+			(at 105.41 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,16 +7784,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 173.9899 90)
+			(at 107.95 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 173.99 0)
+			(at 105.41 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8328,7 +7802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 173.99 0)
+			(at 105.41 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +7811,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 173.99 0)
+			(at 105.41 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,7 +7936,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 45.72 180)
+		(at 153.67 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8471,7 +7945,7 @@
 		(fields_autoplaced yes)
 		(uuid "4171ce3b-6e9a-4a90-8f39-780defa73ec3")
 		(property "Reference" "#PWR048"
-			(at 158.75 39.37 0)
+			(at 153.67 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,16 +7954,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 44.4499 0)
+			(at 156.21 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 45.72 0)
+			(at 153.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +7972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 45.72 0)
+			(at 153.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,7 +7981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 45.72 0)
+			(at 153.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,6 +8899,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 153.67 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63e24289-dade-4264-9a68-f450586a93b9")
+		(property "Reference" "J4"
+			(at 153.9874 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 153.9874 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c237379-9422-4575-b10b-d1899e11c1e7")
+		)
+		(pin "1"
+			(uuid "7263c85d-4fea-4793-8c70-fa1b6bc2c7d3")
+		)
+		(instances
+			(project ""
+				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 105.41 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72b81ec7-673d-4d8c-8494-0e1aebfd79d8")
+		(property "Reference" "J5"
+			(at 105.7274 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 105.7274 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ddfb0c7-9e24-4cbf-bd0a-70b1b580827e")
+		)
+		(pin "1"
+			(uuid "d99411f2-db4f-4a38-a1b0-5a6961f05863")
+		)
+		(instances
+			(project "rp_ext_clk_brd"
+				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 185.42 92.71 0)
 		(unit 1)
@@ -9485,6 +9097,72 @@
 			(project "rp_ext_clk_brd"
 				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75f3f595-8474-4a69-812b-0fd04542983f")
+		(property "Reference" "#PWR054"
+			(at 114.3 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304387da-e6c7-425a-995e-3fab0e04b75d")
+		)
+		(instances
+			(project "rp_ext_clk_brd"
+				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -9617,6 +9295,126 @@
 			(project "rp_ext_clk_brd"
 				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1860196:1860196")
+		(at 27.94 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8359d492-143f-4590-8bcf-156f04d8e12c")
+		(property "Reference" "J2"
+			(at 17.78 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1860196"
+			(at 17.78 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1860196:1860196"
+			(at 11.43 -64.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-2-508-bk-h1l-1860196?type=pdf"
+			(at 11.43 -164.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm2, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: MKDSN 1,5, pitch: 5.08 mm,"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.15"
+			(at 11.43 -364.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1860196"
+			(at 11.43 -464.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1860196?qs=WyAARYrbSnZ0H362tLIZlA%3D%3D"
+			(at 11.43 -564.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 11.43 -664.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1860196"
+			(at 11.43 -764.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5c9c7f2-df54-45a4-9fd8-379b4453033e")
+		)
+		(pin "1"
+			(uuid "0577afcd-2e9b-435a-b34b-7b0d7db0bc4c")
+		)
+		(instances
+			(project ""
+				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10711,79 +10509,6 @@
 			(project "rp_ext_clk_brd"
 				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Conn_Coax_Edge_MLX:732512120")
-		(at 158.75 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b818827d-2a36-41de-ae1e-d8776424d412")
-		(property "Reference" "J4"
-			(at 149.86 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "732512120"
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Conn_Coax_MLX:CONN-732513152_MOL"
-			(at 158.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/732512120?display=pdf"
-			(at 158.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a264e997-1076-434b-aae4-3d838512b6dd")
-		)
-		(pin "3"
-			(uuid "907c3931-98bf-44df-bb7a-a758fd60b2a5")
-		)
-		(pin "2"
-			(uuid "dfb45bfd-198d-47de-8537-93f417c4b2a7")
-		)
-		(instances
-			(project ""
-				(path "/0f25c832-291b-4a58-95ad-d151503a68ae"
-					(reference "J4")
 					(unit 1)
 				)
 			)

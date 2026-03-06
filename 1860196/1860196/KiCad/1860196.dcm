@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1860196
+D PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm2, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: MKDSN 1,5, pitch: 5.08 mm,
+K
+F https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-2-508-bk-h1l-1860196?type=pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,16 @@
+.1860196 :1 ;PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm2, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: MKDSN 1,5, pitch: 5.08 mm,
+"1860196"
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 1860196
+~!Mouser Part Number (651-1860196)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1860196?qs=WyAARYrbSnZ0H362tLIZlA%3D%3D)
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1860196)
+~!Link Datasheet (https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-2-508-bk-h1l-1860196?type=pdf)
+~!Height (10.15mm)
+~!3D_Model (1860196)
+"1860196"
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1860196
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=3.2
+Released=2023-12-18 10:26:58
+Downloaded=2026-03-06 07:49:26
+3D=Y
